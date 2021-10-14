@@ -9,6 +9,8 @@
 		padding: 0 10px;
 	}
 
+
+	
 	/* FOOTER */
 	.footer_redes ul li a {
 		border: 3px solid #fec63e;
@@ -54,6 +56,11 @@
 		border-color: #fff;
 	}
 
+	.header_menu ul li a.menu_ativo {
+		border-color: #fff;
+	}
+
+
 
 	/* INTRODUÇÃO */
 	.introducao {
@@ -68,15 +75,37 @@
 	}
 
 
+	/* INTRODUÇÃO */
+	.introducao-interna{
+		margin-top: 0;
+	}
+
+
+
 	/* CALL */
 	.call {
 		padding-top: 10px;
 	}
 
 
+
 	/* QUALIDADE - HOME */
 	.qualidade:after{
 		display: none;
+	}
+
+
+
+	/* SOBRE */
+	.missao_sobre p {
+		padding-right: 0;
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.missao_sobre ul li {
+		font-size: 14px;
+		line-height: 25px;
 	}
 
 }
